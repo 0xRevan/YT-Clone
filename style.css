@@ -5,9 +5,25 @@
 }
 
 .navbar {
-    display: flex;
     height: 56px;
     padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    padding: 18px 14px 18px 16px;
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
 
 }
 
+.navicons {
+display: flex;
+justify-content: left;
+}

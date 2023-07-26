@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YousTubes</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsiveness.css">
+
 </head>
 
 <body>
     
 <!-- 3 Divs for each part of the YouTube landing page - separated into different divs -->
 <div class="navbar">
-    <i><YT-icon><img src="/assets/yt_logo_rgb_dark.png" alt=""></YT-icon></i>
+    <!-- logo + menu -->
+    <div class="logo">
+        <i class="material-icons">view_headline</i>
+        <img src="/assets/yt_logo_rgb_dark.png">
+    </div>
     <!-- the search bar -->
     <div class="searchbar">
         <input type="text" name="search">
-        <button><i>S</i></button>
+        <button><i class="material-icons">search</i></button>
+        <button><i class="material-icons">mic</i></button>
     </div>
-    <i>M</i>
-    <i>U</i>
-    <i>G</i>
-    <i>N</i>
-    <i>A</i>
-
+    <!-- navigation icons -->
+    <div class="navicons">
+        <i class="material-icons">upload</i>
+        <i class="material-icons">notifications</i>
+        <i class="material-icons">person</i>
+    </div>
 </div>
  
 <!-- the main YT page -->
